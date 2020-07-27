@@ -12,4 +12,7 @@ people = {
 
 if "JOCY" in people:
     print(F"found person: {people['JOCY']}")
+    exit(0)
+print("Not found")
+exit(1) #exit  it's not necesary
     
